@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-24 15:36+0100\n"
-"PO-Revision-Date: 2026-07-15 01:33+0000\n"
+"PO-Revision-Date: 2026-08-03 17:17+0000\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <https://translate.fedoraproject.org/projects/"
 "fedora-media-writer/mediawriter/sl/>\n"
@@ -1127,17 +1127,17 @@ msgstr "live"
 #. (itstool) path: keywords/keyword
 #: ../src/app/data/org.fedoraproject.MediaWriter.metainfo.xml.in:25
 msgid "spin"
-msgstr ""
+msgstr "spin"
 
 #. (itstool) path: keywords/keyword
 #: ../src/app/data/org.fedoraproject.MediaWriter.metainfo.xml.in:26
 msgid "creator"
-msgstr ""
+msgstr "ustvarjalci"
 
 #. (itstool) path: keywords/keyword
 #: ../src/app/data/org.fedoraproject.MediaWriter.metainfo.xml.in:27
 msgid "media"
-msgstr ""
+msgstr "mediji"
 
 #: ../src/app/data/org.fedoraproject.MediaWriter.desktop:48
 msgid "Write Fedora images to your portable drives"
@@ -1171,6 +1171,11 @@ msgid ""
 "or download it manually from:\n"
 "https://aka.ms/vs/17/release/vc_redist.x64.exe"
 msgstr ""
+"Neuspel prejem Visual C++ Redistributable.\n"
+"\n"
+"Preverite svojo internetno povezavo in poskusite znova\n"
+"ali ga ročno prenesite z naslova:\n"
+"https://aka.ms/vs/17/release/vc_redist.x64.exe"
 
 #: NSIS:VCRedistDownloading
 msgctxt "NSIS:VCRedistDownloading"
@@ -1191,6 +1196,11 @@ msgid ""
 "\n"
 "Would you like to download and install it now? (approximately 25 MB)"
 msgstr ""
+"Microsoft Visual C++ Redistributable ni nameščen na vašem sistemu.\n"
+"\n"
+"Zahtevan je za pravilno delovanje ${APPNAME}.\n"
+"\n"
+"Ali ga želite prejeti in namestiti zdaj (pribl. 25 MB)?"
 
 #: NSIS:VCRedistSkipped
 msgctxt "NSIS:VCRedistSkipped"
@@ -1202,6 +1212,12 @@ msgid ""
 "You can download it manually from:\n"
 "https://aka.ms/vs/17/release/vc_redist.x64.exe"
 msgstr ""
+"Izbrali ste preskok namestitve Visual C++ Redistributable.\n"
+"\n"
+"${APPNAME} morda ne bo pravilno deloval brez tega.\n"
+"\n"
+"Prejem lahko izvedete ročno z naslova:\n"
+"https://aka.ms/vs/17/release/vc_redist.x64.exe"
 
 #~ msgctxt "MacDrive|"
 #~ msgid "Could not find the helper binary. Check your installation."
